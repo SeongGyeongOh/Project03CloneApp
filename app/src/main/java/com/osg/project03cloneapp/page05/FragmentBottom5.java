@@ -1,4 +1,4 @@
-package com.osg.project03cloneapp;
+package com.osg.project03cloneapp.page05;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -9,7 +9,9 @@ import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-public class FragmentBottom2 extends Fragment {
+import com.osg.project03cloneapp.R;
+
+public class FragmentBottom5 extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -18,7 +20,7 @@ public class FragmentBottom2 extends Fragment {
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        View view=inflater.inflate(R.layout.layout_fragment_bottom2, container, false);
+        View view=inflater.inflate(R.layout.layout_fragment_bottom5, container, false);
         return view;
     }
 }

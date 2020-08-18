@@ -8,9 +8,13 @@ import androidx.fragment.app.FragmentTransaction;
 
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
+import com.osg.project03cloneapp.page01.FragmentBottom1;
+import com.osg.project03cloneapp.page02.FragmentBottom2;
+import com.osg.project03cloneapp.page03.FragmentBottom3;
+import com.osg.project03cloneapp.page04.FragmentBottom4;
+import com.osg.project03cloneapp.page05.FragmentBottom5;
 
 public class MainActivity extends AppCompatActivity {
 //    배달의민족 클론앱을 만들어보자 (액티비티 생김새만...)
@@ -22,7 +26,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-//        container=findViewById(R.id.main_container);
         bottomNavigationView=findViewById(R.id.bottomMenu);
 
 
