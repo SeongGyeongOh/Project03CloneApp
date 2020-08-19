@@ -4,12 +4,13 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:gravity="center">
+    android:gravity="center"
+    android:layout_marginRight="8dp">
 
     <ImageView
         android:id="@+id/recImg"
         android:layout_width="80dp"
-        android:layout_height="wrap_content"
+        android:layout_height="80dp"
         android:src="@drawable/hippo"
         android:adjustViewBounds="true"/>
     <TextView
