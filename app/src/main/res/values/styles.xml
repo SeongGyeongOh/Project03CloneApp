@@ -8,4 +8,10 @@
 <!--        <item name="statusBarBackground">#cccccc</item>-->
     </style>
 
+    <style name="menuList">
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
 </resources>
